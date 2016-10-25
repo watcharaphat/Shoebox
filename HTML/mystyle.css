@@ -67,6 +67,8 @@ body {
 .full_width {
     width: 100%;
     height: auto;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+    float: left;
 }
 
 #featured_item_box {
@@ -155,4 +157,22 @@ body {
     color: #FFFFFF;
     margin-top: 23px;
     margin-left: 38px;
+}
+
+.white_arrow {
+    position: absolute;
+    margin-top: -17px;
+    padding-left: 180px;
+}
+
+#new_arrival_block {
+    
+}
+
+.block_header_text {
+    font-family: Roboto-Regular;
+    font-size: 28px;
+    color: #000000;
+    position: static;
+    left: 120px;
 }
