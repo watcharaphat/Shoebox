@@ -1,47 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    
-    <!-- roboto font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
       
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Shoebox - smart living smart shopping</title>
-
-    <!-- Bootstrap -->
-    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      
+                  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Making it swipeable - Swipeable Side Menu</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+      
+    <script type="text/javascript">
+      $(window).load(function(){
+        $("[data-toggle]").click(function() {
+          var toggle_el = $(this).data("toggle");
+          $(toggle_el).toggleClass("open-sidebar");
+        });
+         $(".swipe-area").swipe({
+              swipeStatus:function(event, phase, direction, distance, duration, fingers)
+                  {
+                      if (phase=="move" && direction =="right") {
+                           $(".container").addClass("open-sidebar");
+                           return false;
+                      }
+                      if (phase=="move" && direction =="left") {
+                           $(".container").removeClass("open-sidebar");
+                           return false;
+                      }
+                  }
+          }); 
+      });
+      
+    </script>
       
     <!-- mystyle CSS -->
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="css/mystyle2.css">
       
   </head>
+    
   <body style="background-color: #EEEEEE">
       
+
+      
       <div class="navbar navbar-fixed-top nbar">
-        
-          <div class="navbar-left">
+        <div class="navbar-left" >
             
-              <div id="menu_button">
-                <img src="images/navigation_bar/menuButton.png">
-              </div>
-              
-              <a href="" class="navbar-brand">
-                <img class="logo" src="images/navigation_bar/logo%20with%20name.png">
-              </a>
-              
-          </div>
+                  <!-- Menu button -->
+      <div class="container menu">
+      <div id="sidebar">
+          <ul>
+              <li><a href="#">Fetured Item</a></li>
+              <li><a href="#">Best Seller</a></li>
+              <li><a href="#">Nike</a></li>
+              <li><a href="#">Allen Edmons</a></li>
+              <li><a href="#">Converse</a></li>
+          </ul>
+      </div>
+      <div class="main-content">
           
-          <div>
+          <a href="#" data-toggle=".container" id="sidebar-toggle">
+              <img src="images/navigation_bar/menuButton.png" >
+          </a>
+
+      </div>
+    </div> <!-- end menu button -->
+            
+            <a href="http://www.google.com/" class="navbar-brand">
+                <img class="logo" src="images/navigation_bar/logo%20with%20name.png">
+            </a>
+        </div>
+          
+                  <div>
               
               <div class="signin_join_div">
                 <div id="signin_div">Sign in</div>
@@ -62,13 +93,14 @@
               
           </div>
           
-      </div> <!-- end nav bar div -->
+      </div> <!-- end nav bar -->
       
-      <div class="wrapper" >
-        <div class="featured_item_div no-padding" >
-            <img class="full_width" src="images/featured01.png" >
-        
-            <div id="featured_item_box" >
+      <div class="container-full" >
+          <div class="row">
+            <div class="col-md-12">
+                <img class="full_width"src="images/featured01.png" >
+                
+                <div id="featured_item_box" >
                 <div id="featured_brand_name">Allen Edmonds</div>
                 <div id="cir1" class="inactiveCircle" ></div>
                 <div id="cir2" class="activeCircle" ></div>
@@ -84,19 +116,24 @@
                 <img class="white_arrow" src="images/navigation_bar/white_arrow.png" >
             
             </div>
-                    
-      </div>
+            </div>
+          </div> <!-- end row 1 -->
           
-        <!-- New Arrival -->
-        <div class="block_header_text">
-            New Arrival  
-        </div>
+          <div class="row">
+            <div class="col-md-12" >
+                <p class="block_header_text">New Arrival</p>
+            </div>
+          </div>
           
+          <div class="container-inside">
+              <div class="row">
+                <div class="col-md-4">bobo1</div>
+                <div class="col-md-4">bobo2</div>
+                <div class="col-md-4">bobo3</div>
+              </div>
+          </div>
       </div>
       
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+      
   </body>
 </html>
