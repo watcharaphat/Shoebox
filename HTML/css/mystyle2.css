@@ -368,17 +368,20 @@ body, html {
 }
 
 .norm_box1 {
-    position: relative;
-    left: 60px;
     width: 240px;
     height: 311px;
     background: #FFFFFF;
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
 }
 
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
 .norm_box2 {
     position: relative;
-    left: 120px;
+    left: 60px;
     width: 240px;
     height: 311px;
     background: #FFFFFF;
