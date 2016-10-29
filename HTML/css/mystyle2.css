@@ -103,7 +103,7 @@ body, html {
       }
 
 .menu {
-    z-index: 999999999999;
+    z-index: -1;
     padding-top: 4px;
     position: fixed;
 }
@@ -136,8 +136,9 @@ body, html {
 .logo {
     width: auto;
     height: 64px;
-    margin: -8px 0px 0px 100px;
-    float: left;
+    top: -8px;
+    left: 100px;
+    position: relative;
 }
 
 #menu_button {
@@ -288,9 +289,10 @@ body, html {
 .block_header_text {
     font-size: 28px;
     color: #000000;
-    position: static;
+    position: relative;
     padding-left: 120px;
     padding-top: 60px;
+    margin-left: -17.5px;
 }
 
 .container-inside {
@@ -298,3 +300,124 @@ body, html {
     margin-right: 120px;
 }
 
+.margin-30 {
+    margin-top: 30px;
+}
+
+.large_box {
+    z-index: 2;
+    width: 510px;
+    height: 311px;
+    background-image: url('../images/new_arrival_01.png');
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
+.price_tag {
+    z-index: 3;
+    position: relative;
+    top: 21.2px;
+    left: -19px;
+}
+
+.price {
+    z-index: 4;
+    position: relative;
+    top: -7.5px
+}
+
+.large_desc {
+    z-index: 5;
+    position: relative;
+    top: -20px;
+    left: 255px;
+    background: rgba(255,255,255,0.75);
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+    width: 210px;
+    height: 235px;
+}
+
+.large_desc_brand {
+    position: relative;
+    top: 6.73px;
+    left: 15.97px;
+    font-size: 12px;
+    color: #9B9B9B;
+}
+
+.large_desc_name {
+    position: relative;
+    top: 10px;
+    left: 15.97px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.large_desc_desc {
+    position: relative;
+    left: 15.97px;
+    top: 20px;
+    margin-right: 25px;
+    font-size: 12px;
+    color: #000000;
+}
+
+.add_to_cart {
+    position: relative;
+    left: 16.98px;
+    top: 90px;
+}
+
+.norm_box1 {
+    position: relative;
+    left: 30px;
+    width: 240px;
+    height: 311px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
+.norm_box2 {
+    position: relative;
+    left: 60px;
+    width: 240px;
+    height: 311px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
+.norm_box_img {
+    position: relative;
+    left: -15px;
+    top: -97px;
+}
+
+.brand_tag {
+    position: relative;
+    top: -29px;
+    left: 50px;
+    z-index: 5;
+}
+
+.norm_brand {
+    z-index: 6;
+    position: relative;
+    top: -49px;
+    left: 64px;
+    font-size: 12px;
+    color: #9B9B9B;
+}
+
+.norm_name {
+    z-index: 7;
+    position: relative;
+    font-size: 18px;
+    color: #000000;
+    top: -80px;
+    text-align: center;
+}
+
+.norm_add_to_cart {
+    position: relative;
+    top: -75px;
+    left: 47.5px;
+}
