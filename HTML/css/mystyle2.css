@@ -369,7 +369,7 @@ body, html {
 
 .norm_box1 {
     position: relative;
-    left: 30px;
+    left: 60px;
     width: 240px;
     height: 311px;
     background: #FFFFFF;
@@ -378,7 +378,7 @@ body, html {
 
 .norm_box2 {
     position: relative;
-    left: 60px;
+    left: 120px;
     width: 240px;
     height: 311px;
     background: #FFFFFF;
