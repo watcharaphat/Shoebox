@@ -289,8 +289,6 @@ body, html {
 .block_header_text {
     font-size: 28px;
     color: #000000;
-    position: relative;
-    padding-left: 120px;
     padding-top: 60px;
     margin-left: -17.5px;
 }
@@ -367,6 +365,13 @@ body, html {
     top: 90px;
 }
 
+.norm_box {
+    width: 240px;
+    height: 311px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
 .norm_box1 {
     position: relative;
     left: 120px;
@@ -382,6 +387,33 @@ body, html {
 
 .norm_box2 {
     float: right;
+    width: 240px;
+    height: 311px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
+.norm_box3 {
+    position: relative;
+    left: 0px;
+    width: 240px;
+    height: 311px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
+.norm_box4 {
+    position: relative;
+    left: 30px;
+    width: 240px;
+    height: 311px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
+.norm_box5 {
+    position: relative;
+    left: 150px;
     width: 240px;
     height: 311px;
     background: #FFFFFF;
@@ -428,4 +460,10 @@ body, html {
 .bobo {
     background-color: azure;
     border: 1px solid black;
+    text-align: center;
+}
+
+.footer_name {
+    color: #FFFFFF;
+    font-size: 24px;
 }
