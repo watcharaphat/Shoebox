@@ -368,6 +368,8 @@ body, html {
 }
 
 .norm_box1 {
+    position: relative;
+    left: 120px;
     width: 240px;
     height: 311px;
     background: #FFFFFF;
@@ -376,12 +378,10 @@ body, html {
 
 .col-centered {
     float: none;
-    margin: 0 auto;
 }
 
 .norm_box2 {
-    position: relative;
-    left: 60px;
+    float: right;
     width: 240px;
     height: 311px;
     background: #FFFFFF;
@@ -421,6 +421,11 @@ body, html {
 
 .norm_add_to_cart {
     position: relative;
-    top: -75px;
+    top: -70px;
     left: 47.5px;
+}
+
+.bobo {
+    background-color: azure;
+    border: 1px solid black;
 }
