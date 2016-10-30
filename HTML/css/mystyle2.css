@@ -6,7 +6,12 @@ body, html {
 a {
     color: inherit;
 }
-       
+
+.content {
+    margin-top: 80;
+}
+
+/*
 .container {
           position: relative;
           height: 100%;
@@ -103,7 +108,7 @@ a {
       }
       .main-content #sidebar-toggle .bar:last-child{
            margin-bottom: 0;   
-      }
+      } */
 
 .menu {
     z-index: -1;
