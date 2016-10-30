@@ -63,3 +63,32 @@ margin-60 {
     font-size: 28px;
     padding-top: 60px;
 }
+
+.price_tag {
+    position: relative;
+}
+
+.brand {
+    font-size: 12px;
+    color: #9B9B9B;
+    position: relative;
+    top: -12px;
+    left: -10px;
+}
+
+.product_name {
+    font-size: 18px;
+    position: relative;
+    top: -7px;
+}
+
+.price {
+    position: relative;
+    font-size: 14px;
+    top: -3px;
+}
+
+.add_to_cart {
+    position: relative;
+    top: 10px;
+}
