@@ -2,6 +2,10 @@ body {
     background: #EEEEEE;
 }
 
+footer {
+    display: block;
+}
+
 nav ul li a {
     z-index: 999;
     color: black;
@@ -47,13 +51,15 @@ nav ul li a {
     margin-right: 0px;
 }
 
-.full_width {
-    float: none;
-    width: 100%;
-    height: auto;
-    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+margin-60 {
+    margin-top: 6000px;
 }
 
 .black_arrow {
     float: right;
+}
+
+.block_header {
+    font-size: 28px;
+    padding-top: 60px;
 }
