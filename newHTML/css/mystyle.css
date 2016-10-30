@@ -48,8 +48,12 @@ nav ul li a {
 }
 
 .full_width {
+    float: none;
     width: 100%;
     height: auto;
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
-    vertical-align: middle;
+}
+
+.s12 {
+    border: 1px solid white;
 }
