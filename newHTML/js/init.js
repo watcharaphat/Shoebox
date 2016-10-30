@@ -9,7 +9,8 @@
       
       $(".dropdown-button").dropdown();
       
-      $('.carousel.carousel-slider').carousel({full_width: true});
+      $('.carousel.carousel-slider').carousel({full_width: true,
+                         time_constant: 200});
 
 
   }); // end of document ready
