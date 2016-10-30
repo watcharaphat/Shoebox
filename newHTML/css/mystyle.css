@@ -54,6 +54,6 @@ nav ul li a {
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
 }
 
-.s12 {
-    border: 1px solid white;
+.black_arrow {
+    float: right;
 }
