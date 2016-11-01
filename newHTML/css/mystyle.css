@@ -92,3 +92,51 @@ margin-60 {
     position: relative;
     top: 10px;
 }
+
+.margin-l-r-90 {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.brand_in_cart {
+    font-size: 20px;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.name_in_cart {
+    font-size: 20px;
+    color: #000000;
+    padding-bottom: 18px;
+}
+
+.cart_img {
+    padding-left: 54px;
+    padding-right: 50px;
+    height: 180px;
+    width: auto;
+}
+
+.price_in_cart {
+    padding-top: 7px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #000000;
+}
+
+.quantity_in_cart {
+    font-size: 14px;
+    font-weight: 100;
+    color: #000000;
+}
+
+.summary_header {
+    font-size: 17px;
+    color: #000000;
+    height: 300px;
+    font-weight: 800;
+}
+
+.cart-content_detail {
+    margin-top: 20px;
+}
