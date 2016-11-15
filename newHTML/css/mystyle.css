@@ -37,6 +37,12 @@ nav ul li a {
     left: 30px;
 }
 
+#nav_logo_small {
+	height: 48px;
+	position: relative;
+	top: 4.5px;
+}
+
 .hide-on-med-and-down {
     padding-right: 12px;
 }
@@ -186,7 +192,7 @@ nav ul li a {
 }
 
 .header-bar {
-	background-color: #D32F2F;
+	background-color: #EE6573;
 	height: 120px;
 	margin-bottom: 70px
 }
@@ -354,8 +360,5 @@ nav ul li a {
 .ku {
     position: fixed;
     width: 15vw;
-}
-
-.collection-item {
-    
+	top: 140px;
 }
