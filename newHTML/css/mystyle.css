@@ -192,9 +192,8 @@ nav ul li a {
 }
 
 .header-bar {
-	background-color: #EE6573;
 	height: 120px;
-	margin-bottom: 70px
+	margin-bottom: 30px
 }
 
 .header-text {
@@ -379,14 +378,6 @@ nav ul li a {
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
 }
 
-.sb-shop-item2 img:hover {
-   -webkit-transform: scale(1.4);
-   -moz-transform: scale(1.4);
-   -ms-transform: scale(1.4);
-   -o-transform: scale(1.4);
-   transform: scale(1.4);
-}
-
 .sb-shop-item img {
 	width: 65%;
 	height: auto;
@@ -425,3 +416,14 @@ nav ul li a {
 .sb-shop-item {
 	overflow: hidden;
 }
+
+/* manage style  */
+
+.sb-manage-panel {
+
+}
+
+.sb-manage-table-in-card {
+	margin-bottom: 20px;
+}
+

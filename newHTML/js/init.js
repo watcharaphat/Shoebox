@@ -12,6 +12,11 @@
       $('.carousel.carousel-slider').carousel({full_width: true,
                          time_constant: 200});
       window.setInterval(function(){$('.carousel').carousel('next')},5000)
+      $('.collapsible').collapsible();
+
+      $('tr[data-href]').on("click", function() {
+          document.location = $(this).data('href');
+      });
 
 
   }); // end of document ready
