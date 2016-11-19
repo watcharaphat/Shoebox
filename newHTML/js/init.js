@@ -1,23 +1,22 @@
 (function($){
-  $(function(){
-      
-      $('.button-collapse').sideNav({
-      menuWidth: 300, // Default is 240
-      edge: 'left', // Choose the horizontal origin
-      closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-      });
-      
-      $(".dropdown-button").dropdown();
-      
-      $('.carousel.carousel-slider').carousel({full_width: true,
-                         time_constant: 200});
-      window.setInterval(function(){$('.carousel').carousel('next')},5000)
-      $('.collapsible').collapsible();
+    $(function(){
 
-      $('tr[data-href]').on("click", function() {
-          document.location = $(this).data('href');
-      });
+        $('.button-collapse').sideNav({
+            menuWidth: 300, // Default is 240
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        });
 
+        $(".dropdown-button").dropdown();
 
-  }); // end of document ready
+        $('.carousel.carousel-slider').carousel({full_width: true,
+            time_constant: 200});
+        window.setInterval(function(){$('.carousel').carousel('next')},5000)
+        $('.collapsible').collapsible();
+
+        $('tr[data-href]').on("click", function() {
+            document.location = $(this).data('href');
+        });
+
+}); // end of document ready
 })(jQuery); // end of jQuery name space

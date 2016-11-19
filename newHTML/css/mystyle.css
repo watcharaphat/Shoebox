@@ -427,3 +427,8 @@ nav ul li a {
 	margin-bottom: 20px;
 }
 
+.sb-manage-header-button {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
