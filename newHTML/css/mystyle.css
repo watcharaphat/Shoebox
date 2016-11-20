@@ -434,9 +434,6 @@ nav ul li a {
 }
 
 /* The new homepage with parallax */
-.parallax {
-    
-}
 
 .sb-home-shop-now-btn {
     padding-top: 15px;
@@ -445,7 +442,7 @@ nav ul li a {
 /* manage-product-detail  */
 
 .sb-product-edit img {
-	width: 70%;
+	width: 60%;
 	height: auto;
 }
 
