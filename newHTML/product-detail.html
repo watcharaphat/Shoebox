@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Import Google Icon Font-->
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+		<link type="text/css" rel="stylesheet" href="css/mystyle.css" />
+		<link type="text/css" rel="stylesheet" href="css/formstyle.css" />
+		<link type="text/css" rel="stylesheet" href="css/mychart.css" />
+
+
+		<title>Shoebox - smart living smart shoping</title>
+
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	</head>
+
+	<body>
+		<!--Import jQuery before materialize.js-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/init.js" ></script>
+
+
+		<!-- Dropdown Structure -->
+		<ul id="dropdown1" class="dropdown-content">
+			<li><a href="#!">Nike</a></li>
+			<li><a href="#!">Vans</a></li>
+			<!-- <li class="divider"></li> -->
+			<li><a href="#!">Converse</a></li>
+			<li><a href="#!">Allen Edmonds</a></li>
+		</ul>
+
+		<div class="navbar-fixed" >
+			<nav>
+				<div class="nav-wrapper white_nav">
+					<div class="container">
+						<a href="#!" class="brand-logo hide-on-small-only"><img id="nav_logo" alt="Shoebox" src="images/navigation_bar/logo%20with%20name.png" /></a>
+
+						<a href="#!" class="brand-logo hide-on-med-and-up"><img id="nav_logo_small" alt="Shoebox" src="images/navigation_bar/logo%20with%20name.png" /></a>
+						<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+						<ul class="right hide-on-med-and-down">
+							<li><a href="#">Feature Item</a></li>
+							<li><a href="#">Best Seller</a></li>
+							<!-- Dropdown Trigger -->
+							<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Brand<i class="material-icons right">arrow_drop_down</i></a></li>
+							<li><a href="badges.html">Search</a></li>
+							<li><a href="collapsible.html">Cart <span class="badge red white-text">3</span></a></li>
+							<li><a href="mobile.html">My Account</a></li>
+						</ul>
+						<ul class="side-nav" id="mobile-demo">
+							<li><a href="#">Feature Item</a></li>
+							<li><a href="#">Best Seller</a></li>
+							<li><a href="badges.html">Search</a></li>
+							<li><a href="collapsible.html">Cart</a></li>
+							<li><a href="mobile.html">My Account</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div> <!-- navbar-fixed -->
+
+		<div class="container">
+			<div class="row" style="margin-top: 70px">
+				<div class="col l2 card grey lighten-2">
+					[Menu]
+				</div>
+
+				<div class="col l10 card">
+
+					<div class="row">
+						<div class="col l6 offset-l3 sb-product-edit">
+							<img src="https://ae01.alicdn.com/kf/HTB1hlyDMVXXXXa7XXXXq6xXFXXXo/Men-font-b-Shoes-b-font-Outdoor-Climbing-Mountain-2016-Large-Size-Sneaker-font-b-Leather.jpg" alt="img01">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col l10 offset-l1">
+							<form class="input-field form-style-6" action="#eiei">
+								<table id="sb-product-edit-table" class="striped sb-manage-table-in-card responsive-table">
+									<thead>
+										<tr>
+											<th data-field="id">FIELD</th>
+											<th data-field="brand">DATA</th>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr>
+											<td>ID</td>
+											<td>1</td>
+										</tr>
+										<tr>
+											<td>Sold</td>
+											<td>7</td>
+										</tr>
+										<tr>
+											<td>View</td>
+											<td>42</td>
+										</tr>
+										<tr>
+											<td>Brand</td>
+											<td>
+												<div class="sb-product-edit-input">
+													<input type="text" name="brand" value="Nike" />
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>Name</td>
+											<td>
+												<div class="sb-product-edit-input">
+													<input type="text" name="name" value="Fiex Experience" />
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>Brand</td>
+											<td>
+												<div class="sb-product-edit-input">
+													<input type="text" name="brand" value="Nike" />
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>Supplier</td>
+											<td>
+												<div class="sb-product-edit-input">
+													<input type="text" name="supplier" value="Nike Official Thailand" />
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>Type</td>
+											<td>
+												<div class="sb-product-edit-input">
+													<input type="text" name="type" value="Running" />
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>Description</td>
+											<td>
+												<div class="sb-product-edit-input">
+													<textarea name="description" rows="3">The Fastest shoes in the world.</textarea>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>Price</td>
+											<td>
+												<div class="sb-product-edit-input">
+													<input type="text" name="price" value="69" />
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>Picture</td>
+											<td>
+												<div class="sb-product-edit-input">
+													<input type="text" name="picture" value="https://ae01.alicdn.com/kf/HTB1hlyDMVXXXXa7XXXXq6xXFXXXo/Men-font-b-Shoes-b-font-Outdoor-Climbing-Mountain-2016-Large-Size-Sneaker-font-b-Leather.jpg" />
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>Color</td>
+											<td>
+												<div class="sb-product-edit-input">
+													<input type="text" name="color" value="black" />
+												</div>
+											</td>
+										</tr>
+										<!-- <tr>
+											<td>Size</td>
+											<td>
+												<div class="sb-product-edit-input">
+													<input type="text" name="brand" value="Nike" />
+													<a href='#' onclick='$("<tr><td><input type=\"text\" placeholder=\"size\" name=\"size\" /></td><td><input type=\"text\" placeholder=\"amount\" name=\"amount\"</td></tr>").appendTo($("#sb-product-edit-table > tbody > tr").eq(10)); return false;'>+&nbsp;Add new size</a>
+												</div>
+											</td>
+										</tr> -->
+										<tr>
+											<td>is_available ?</td>
+											<td>
+												<div class="sb-product-edit-input">
+													<input type="text" name="is_availabue" value="true" />
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>is_discount</td>
+											<td>
+												<div class="sb-product-edit-input">
+													<input type="text" name="is_discount" value="true" />
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>Discount percent</td>
+											<td>
+												<div class="sb-product-edit-input">
+													<input type="text" name="discount" value="15" />
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="right">
+									<a class="waves-effect waves-light btn grey">Cancel</a>
+									<input class="waves-effect waves-light btn orange darken-3" type="submit" value="SAVE" />
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- container -->
+
+
+		<footer class="page-footer black">
+			<div class="container">
+				<div class="row">
+					<div class="col l6 s12">
+						<h5 class="white-text">Shoebox</h5>
+						<p class="grey-text text-lighten-4">Shoes love the loving one.</p>
+					</div>
+					<div class="col l4 offset-l2 s12">
+						<h5 class="white-text">Get to know us</h5>
+						<ul>
+							<li><a class="grey-text text-lighten-3" href="#!">About</a></li>
+							<li><a class="grey-text text-lighten-3" href="#!">Contact us</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					Shoebox &copy; 2016 Copyright.
+					<!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+				</div>
+			</div>
+		</footer>
+
+
+	</body>
+</html>

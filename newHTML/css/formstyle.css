@@ -1,6 +1,6 @@
 .form-style-6{
-    margin: 10px auto;
-    padding: 16px;
+/*    margin: 10px auto;
+    padding: 16px; */
 }
 .form-style-6 h1{
     background: #43D1AF;
@@ -33,7 +33,6 @@
     -moz-box-sizing: border-box;
     width: 100%;
     background: #fff;
-    margin-bottom: 4%;
     border: 1px solid #ccc;
     padding: 3%;
     color: #555;
@@ -50,11 +49,11 @@
 .form-style-6 textarea:focus,
 .form-style-6 select:focus
 {
-/*    box-shadow: 0 0 5px #43D1AF;*/
+    box-shadow: 0 0 5px #43D1AF;
     padding: 3%;
-/*    border: 1px solid #43D1AF;*/
-    box-shadow: 0 0 5px #2196F3;
-    border: 1px solid #2196F3;
+    border: 1px solid #43D1AF;
+/*    box-shadow: 0 0 5px #2196F3; */
+/*    border: 1px solid #2196F3; */
 }
 
 input:focus::-webkit-input-placeholder { color:transparent; }

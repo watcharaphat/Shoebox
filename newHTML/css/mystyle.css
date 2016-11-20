@@ -441,3 +441,14 @@ nav ul li a {
 .sb-home-shop-now-btn {
     padding-top: 15px;
 }
+
+/* manage-product-detail  */
+
+.sb-product-edit img {
+	width: 70%;
+	height: auto;
+}
+
+.sb-product-edit-input {
+	width: 80%;
+}
