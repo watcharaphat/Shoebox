@@ -374,12 +374,13 @@ nav ul li a {
 	padding: 0 0 0 0;
 }
 
-.sb-shop-item2:hover {
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+.sb-shop-item:hover {
+	/* box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50); */
+	outline: 1px solid #BEBEBE;
 }
 
 .sb-shop-item img {
-	width: 65%;
+	width: 90%;
 	height: auto;
 	display: block;
 	margin-left: auto;
@@ -387,7 +388,7 @@ nav ul li a {
 }
 
 .sb-shop-nav-panel {
-	margin-right: 20px;
+	margin-right: 0px;
 }
 
 .sb-shop-item-price {
@@ -413,9 +414,6 @@ nav ul li a {
 	transform: scale(1.15);
 }
 
-.sb-shop-item {
-	overflow: hidden;
-}
 
 /* manage style  */
 
@@ -500,4 +498,26 @@ nav ul li a {
 	margin-top: 10px;
 	width: 100%;
 	margin-bottom: 10px;
+}
+
+/* The new shop */
+
+.sb-shop-med-text {
+	font-size: 14px;
+}
+
+.sb-shop-small-text {
+	font-size: 12px;
+}
+
+.sb-shop-price-text {
+	color: #F57C01;
+}
+
+.sb-shop-item {
+	margin-bottom: 20px;
+}
+
+.sb-shop-price-box {
+	padding-bottom: 15px;
 }
