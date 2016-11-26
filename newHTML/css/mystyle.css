@@ -521,3 +521,76 @@ nav ul li a {
 .sb-shop-price-box {
 	padding-bottom: 15px;
 }
+
+.sb-shop-card-item {
+	margin-bottom: 20px;
+}
+
+.sb-shop-card-item img {
+	width: 90%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* cart */
+
+.sb-cart-row-header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	opacity: 0.7;
+}
+
+.sb-cart-img img {
+	width: 70%;
+}
+
+.sb-cart-product-text {
+	margin-top: 10px;
+}
+
+.sb-cart-product-name {
+	margin-top: -15px;
+}
+
+.sb-cart-remove {
+	margin-top: 10px;
+	text-decoration: underline;
+	opacity: 0.6;
+}
+
+.sb-cart-divider {
+	margin-top: -20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.sb-cart-total-price {
+	padding-right: 1.2vw;
+}
+
+/* register  */
+.sb-register-header {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 32px;
+}
+
+.sb-register-form input {
+	margin-top: -25px;
+}
+
+.sb-register-grey-box {
+	background: #E5E5E5;
+	position: relative;
+	top: 30px;
+	margin-right: 2vw;
+	margin-left: 2vw;
+	margin-bottom: 60px;
+	padding-bottom: 20px;
+}
+
+.sb-register-row {
+	padding-bottom: 20px;
+}
